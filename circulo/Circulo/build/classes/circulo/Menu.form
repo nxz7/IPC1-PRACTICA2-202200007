@@ -69,11 +69,11 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="tiempoProd" max="32767" attributes="0"/>
-                                  <Component id="tiempoEmp" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="tiempoSalida" alignment="0" pref="80" max="32767" attributes="0"/>
+                                  <Component id="tiempoProdGui" max="32767" attributes="0"/>
+                                  <Component id="tiempoEmpGui" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="tiempoSalidaGui" alignment="0" pref="80" max="32767" attributes="0"/>
                               </Group>
-                              <Component id="tiempoInventario" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
+                              <Component id="tiempoInventarioGui" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -82,10 +82,10 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="jLabel6" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                      <Component id="costoInventario" alignment="1" max="32767" attributes="0"/>
-                      <Component id="costoProd" max="32767" attributes="0"/>
-                      <Component id="costoEmp" max="32767" attributes="0"/>
-                      <Component id="costoSalida" pref="88" max="32767" attributes="0"/>
+                      <Component id="costoInventarioGui" alignment="1" max="32767" attributes="0"/>
+                      <Component id="costoProdGui" max="32767" attributes="0"/>
+                      <Component id="costoEmpGui" max="32767" attributes="0"/>
+                      <Component id="costoSalidaGui" pref="88" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace pref="39" max="32767" attributes="0"/>
               </Group>
@@ -111,11 +111,11 @@
                           <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
                           <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                          <Component id="costoInventario" min="-2" max="-2" attributes="0"/>
+                          <Component id="costoInventarioGui" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="costoProd" min="-2" max="-2" attributes="0"/>
+                          <Component id="costoProdGui" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="costoEmp" min="-2" max="-2" attributes="0"/>
+                          <Component id="costoEmpGui" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
@@ -124,26 +124,26 @@
                           <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="tiempoInventario" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tiempoInventarioGui" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="tiempoProd" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tiempoProdGui" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="tiempoEmp" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tiempoEmpGui" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                      <Component id="tiempoSalida" min="-2" max="-2" attributes="0"/>
-                      <Component id="costoSalida" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="tiempoSalidaGui" min="-2" max="-2" attributes="0"/>
+                      <Component id="costoSalidaGui" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="0" pref="79" max="32767" attributes="0"/>
               </Group>
@@ -277,27 +277,27 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="tiempoInventario">
+        <Component class="javax.swing.JTextField" name="tiempoInventarioGui">
         </Component>
-        <Component class="javax.swing.JTextField" name="tiempoProd">
+        <Component class="javax.swing.JTextField" name="tiempoProdGui">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tiempoProdActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tiempoProdGuiActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="tiempoEmp">
+        <Component class="javax.swing.JTextField" name="tiempoEmpGui">
         </Component>
-        <Component class="javax.swing.JTextField" name="tiempoSalida">
+        <Component class="javax.swing.JTextField" name="tiempoSalidaGui">
         </Component>
-        <Component class="javax.swing.JTextField" name="costoInventario">
+        <Component class="javax.swing.JTextField" name="costoInventarioGui">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="costoInventarioActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="costoInventarioGuiActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="costoProd">
+        <Component class="javax.swing.JTextField" name="costoProdGui">
         </Component>
-        <Component class="javax.swing.JTextField" name="costoEmp">
+        <Component class="javax.swing.JTextField" name="costoEmpGui">
         </Component>
-        <Component class="javax.swing.JTextField" name="costoSalida">
+        <Component class="javax.swing.JTextField" name="costoSalidaGui">
         </Component>
       </SubComponents>
     </Container>

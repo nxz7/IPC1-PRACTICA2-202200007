@@ -1,8 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package circulo;
+
+import java.util.ArrayList;
+
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -10,11 +11,17 @@ package circulo;
  */
 public class Menu extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Menu
-     */
+    public static ArrayList <Datos> aList;
+    private int inventarioT,inventarioP,empaquetadoT, empaquetadoP,produccionT, produccionP, salidaP,salidaT;
+    
+    
+    
+    
     public Menu() {
         initComponents();
+
+        this.aList=Informacion.aList;
+
     }
 
     /**
@@ -36,14 +43,14 @@ public class Menu extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        tiempoInventario = new javax.swing.JTextField();
-        tiempoProd = new javax.swing.JTextField();
-        tiempoEmp = new javax.swing.JTextField();
-        tiempoSalida = new javax.swing.JTextField();
-        costoInventario = new javax.swing.JTextField();
-        costoProd = new javax.swing.JTextField();
-        costoEmp = new javax.swing.JTextField();
-        costoSalida = new javax.swing.JTextField();
+        tiempoInventarioGui = new javax.swing.JTextField();
+        tiempoProdGui = new javax.swing.JTextField();
+        tiempoEmpGui = new javax.swing.JTextField();
+        tiempoSalidaGui = new javax.swing.JTextField();
+        costoInventarioGui = new javax.swing.JTextField();
+        costoProdGui = new javax.swing.JTextField();
+        costoEmpGui = new javax.swing.JTextField();
+        costoSalidaGui = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -104,15 +111,15 @@ public class Menu extends javax.swing.JFrame {
             }
         });
 
-        tiempoProd.addActionListener(new java.awt.event.ActionListener() {
+        tiempoProdGui.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tiempoProdActionPerformed(evt);
+                tiempoProdGuiActionPerformed(evt);
             }
         });
 
-        costoInventario.addActionListener(new java.awt.event.ActionListener() {
+        costoInventarioGui.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                costoInventarioActionPerformed(evt);
+                costoInventarioGuiActionPerformed(evt);
             }
         });
 
@@ -141,19 +148,19 @@ public class Menu extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(tiempoProd)
-                                .addComponent(tiempoEmp)
-                                .addComponent(tiempoSalida, javax.swing.GroupLayout.DEFAULT_SIZE, 80, Short.MAX_VALUE))
-                            .addComponent(tiempoInventario, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(tiempoProdGui)
+                                .addComponent(tiempoEmpGui)
+                                .addComponent(tiempoSalidaGui, javax.swing.GroupLayout.DEFAULT_SIZE, 80, Short.MAX_VALUE))
+                            .addComponent(tiempoInventarioGui, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(costoInventario, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(costoProd)
-                    .addComponent(costoEmp)
-                    .addComponent(costoSalida, javax.swing.GroupLayout.DEFAULT_SIZE, 88, Short.MAX_VALUE))
+                    .addComponent(costoInventarioGui, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(costoProdGui)
+                    .addComponent(costoEmpGui)
+                    .addComponent(costoSalidaGui, javax.swing.GroupLayout.DEFAULT_SIZE, 88, Short.MAX_VALUE))
                 .addContainerGap(39, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -174,11 +181,11 @@ public class Menu extends javax.swing.JFrame {
                         .addGap(80, 80, 80)
                         .addComponent(jLabel6)
                         .addGap(36, 36, 36)
-                        .addComponent(costoInventario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(costoInventarioGui, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(costoProd, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(costoProdGui, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(costoEmp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(costoEmpGui, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -186,21 +193,21 @@ public class Menu extends javax.swing.JFrame {
                         .addComponent(jLabel7)
                         .addGap(34, 34, 34)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(tiempoInventario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tiempoInventarioGui, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel2))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(tiempoProd, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tiempoProdGui, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel3))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel4)
-                            .addComponent(tiempoEmp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(tiempoEmpGui, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel5)
-                    .addComponent(tiempoSalida, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(costoSalida, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(tiempoSalidaGui, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(costoSalidaGui, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 79, Short.MAX_VALUE))
         );
 
@@ -219,16 +226,49 @@ public class Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+ 
+
+    try{
+        inventarioT = Integer.parseInt(tiempoInventarioGui.getText());
+        produccionT = Integer.parseInt(tiempoProdGui.getText());
+        empaquetadoT = Integer.parseInt(tiempoEmpGui.getText());
+        salidaT = Integer.parseInt(tiempoSalidaGui.getText());
+        
+        Datos a = new Datos();
+        
+        a.setInventarioT(inventarioT);
+        a.setProduccionT(produccionT);
+        a.setEmpaquetadoT(empaquetadoT);
+        a.setSalidaP(salidaP);
+            
+        if (tiempoInventarioGui.getText()== null || tiempoProdGui.getText() == null || tiempoEmpGui.getText() == null || tiempoSalidaGui.getText() == null) {
+          JOptionPane.showMessageDialog(null, "POR FAVOR LLENAR TODOS LOS DATOS");
+    
+        }
+
+      
+        else {
+            JOptionPane.showMessageDialog(null, "Datos registrados ");
+            aList.add(a);
+            System.out.println(this.aList.get(0).getEmpaquetadoT());
+            
+       }
+        
+
+    }catch (Exception e) {
+           System.out.println(e);
+           JOptionPane.showMessageDialog(null, "Ingrese numeros enteros!!! ");
+                }
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void tiempoProdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tiempoProdActionPerformed
+    private void tiempoProdGuiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tiempoProdGuiActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tiempoProdActionPerformed
+    }//GEN-LAST:event_tiempoProdGuiActionPerformed
 
-    private void costoInventarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_costoInventarioActionPerformed
+    private void costoInventarioGuiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_costoInventarioGuiActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_costoInventarioActionPerformed
+    }//GEN-LAST:event_costoInventarioGuiActionPerformed
 
     /**
      * @param args the command line arguments
@@ -266,10 +306,10 @@ public class Menu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField costoEmp;
-    private javax.swing.JTextField costoInventario;
-    private javax.swing.JTextField costoProd;
-    private javax.swing.JTextField costoSalida;
+    private javax.swing.JTextField costoEmpGui;
+    private javax.swing.JTextField costoInventarioGui;
+    private javax.swing.JTextField costoProdGui;
+    private javax.swing.JTextField costoSalidaGui;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -280,9 +320,9 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JTextField tiempoEmp;
-    private javax.swing.JTextField tiempoInventario;
-    private javax.swing.JTextField tiempoProd;
-    private javax.swing.JTextField tiempoSalida;
+    private javax.swing.JTextField tiempoEmpGui;
+    private javax.swing.JTextField tiempoInventarioGui;
+    private javax.swing.JTextField tiempoProdGui;
+    private javax.swing.JTextField tiempoSalidaGui;
     // End of variables declaration//GEN-END:variables
 }

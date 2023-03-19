@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package circulo;
 
 import java.util.ArrayList;
@@ -20,6 +17,13 @@ public class Bolita implements Runnable {
     private JLabel bolita5;
     private JLabel bolita6;
      public static ArrayList <Datos> aList;
+     
+     private JLabel contador1;
+    private JLabel contador2;
+    private JLabel contador3;
+    private JLabel contador4;
+    private JLabel contador5;
+    private JLabel contador6;
 
 
     public Bolita(JLabel bolita1, JLabel bolita2, JLabel bolita3,JLabel bolita4, JLabel bolita5, JLabel bolita6) {
@@ -71,8 +75,8 @@ public class Bolita implements Runnable {
 
             // BOLITA6
             SwingUtilities.invokeLater(() -> bolita6.setVisible(true));
-            Thread.sleep(1000);
-            SwingUtilities.invokeLater(() -> bolita6.setVisible(false));
+            /**Thread.sleep(1000);
+            SwingUtilities.invokeLater(() -> bolita6.setVisible(false));*/
             
             
         } catch (InterruptedException e) {

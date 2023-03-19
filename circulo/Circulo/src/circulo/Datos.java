@@ -13,6 +13,14 @@ public class Datos {
     private int produccionP;
     private int salidaP;
     private int salidaT;
+
+    
+    
+    private int costoInv;
+    private int costoEmp;
+    private int costoProd;
+    private int costoSalida;
+    private int costoTotal;
     
     public Datos(){
         inventarioT = 0;
@@ -23,7 +31,56 @@ public class Datos {
         produccionP=0;
         salidaP=0;
         salidaT=0;
+        
+        costoInv=0;
+        costoEmp=0;
+        costoProd=0;
+        costoSalida=0;
+        costoTotal=0;
+        
+        
 
+    }
+    
+    
+    public int getCostoInv() {
+        return costoInv;
+    }
+
+    public void setCostoInv(int costoInv) {
+        this.costoInv = costoInv;
+    }
+
+    public int getCostoEmp() {
+        return costoEmp;
+    }
+
+    public void setCostoEmp(int costoEmp) {
+        this.costoEmp = costoEmp;
+    }
+
+    public int getCostoProd() {
+        return costoProd;
+    }
+
+    public void setCostoProd(int costoProd) {
+        this.costoProd = costoProd;
+    }
+
+    public int getCostoSalida() {
+        return costoSalida;
+    }
+
+    public void setCostoSalida(int costoSalida) {
+        this.costoSalida = costoSalida;
+    }
+
+    public int getCostoTotal() {
+        return costoTotal;
+    }
+
+    public void setCostoTotal(int costoTotal) {
+        this.costoTotal = costoTotal;
     }
     
     public int getInventarioT() {

@@ -33,27 +33,27 @@ public class Simulacion extends javax.swing.JFrame {
         this.aList=Informacion.aList;
         //contador2
         
-        bolitas = new JLabel[]{bolita1, bolita21, bolita31, bolita41, bolita51, bolita61, bolita71, bolita81, bolita91, bolita101,bolita111,bolita121,bolita131,bolita141,bolita151,bolita161,bolita171,bolita181,bolita191,bolita201,bolita211};
+        bolitas = new JLabel[]{bolita1, bolita21, bolita31, bolita41, bolita51, bolita61, bolita71, bolita81, bolita91, bolita101,bolita111,bolita121,bolita131,bolita141,bolita151,bolita161,bolita171,bolita181,bolita191,bolita201,bolita211, bolita221, bolita231, bolita241, bolita251, bolita261};
         contTemp thread = new contTemp(contador1, bolitas);
         thread.start();
         
-        bolitas = new JLabel[]{bolita2, bolita22, bolita32, bolita42, bolita52, bolita6dos, bolita72, bolita82, bolita92,bolita102,bolita112,bolita122,bolita132,bolita142,bolita152,bolita162,bolita172,bolita182,bolita192,bolita202,bolita212};
+        bolitas = new JLabel[]{bolita2, bolita22, bolita32, bolita42, bolita52, bolita6dos, bolita72, bolita82, bolita92,bolita102,bolita112,bolita122,bolita132,bolita142,bolita152,bolita162,bolita172,bolita182,bolita192,bolita202,bolita212,bolita222, bolita232, bolita242, bolita252, bolita262};
         contTemp thread1 = new contTemp(contador2, bolitas);
         thread1.start();
         
-        bolitas = new JLabel[]{bolita3, bolita23, bolita33, bolita43, bolita53, bolita63, bolita73, bolita83, bolita93,bolita103,bolita113,bolita123,bolita133,bolita143,bolita153,bolita163,bolita173,bolita183,bolita193,bolita203,bolita213};
+        bolitas = new JLabel[]{bolita3, bolita23, bolita33, bolita43, bolita53, bolita63, bolita73, bolita83, bolita93,bolita103,bolita113,bolita123,bolita133,bolita143,bolita153,bolita163,bolita173,bolita183,bolita193,bolita203,bolita213,bolita223, bolita233, bolita243, bolita253, bolita263};
         contTemp thread2 = new contTemp(contador3, bolitas);
         thread2.start();
         
-        bolitas = new JLabel[]{bolita4, bolita24, bolita34, bolita44, bolita54, bolita64, bolita74, bolita84, bolita94,bolita104,bolita114,bolita124,bolita134,bolita144,bolita154,bolita164,bolita174,bolita184,bolita194,bolita204,bolita214};
+        bolitas = new JLabel[]{bolita4, bolita24, bolita34, bolita44, bolita54, bolita64, bolita74, bolita84, bolita94,bolita104,bolita114,bolita124,bolita134,bolita144,bolita154,bolita164,bolita174,bolita184,bolita194,bolita204,bolita214,bolita224, bolita234, bolita244, bolita254, bolita264};
         contTemp thread3 = new contTemp(contador4, bolitas);
         thread3.start();
         
-        bolitas = new JLabel[]{bolita5, bolita25, bolita35, bolita45, bolita55, bolita65, bolita75, bolita85, bolita95,bolita105,bolita115,bolita125,bolita135,bolita145,bolita155,bolita165,bolita175,bolita185,bolita195,bolita205,bolita215};
+        bolitas = new JLabel[]{bolita5, bolita25, bolita35, bolita45, bolita55, bolita65, bolita75, bolita85, bolita95,bolita105,bolita115,bolita125,bolita135,bolita145,bolita155,bolita165,bolita175,bolita185,bolita195,bolita205,bolita215,bolita225, bolita235, bolita245, bolita255, bolita265};
         contTemp thread4 = new contTemp(contador5, bolitas);
         thread4.start();
         
-        bolitas = new JLabel[]{bolita6, bolita26, bolita36, bolita46, bolita56, bolita66, bolita76, bolita86, bolita96,bolita106,bolita116,bolita126,bolita136,bolita146,bolita156,bolita166,bolita176,bolita186,bolita196,bolita206,bolita216};
+        bolitas = new JLabel[]{bolita6, bolita26, bolita36, bolita46, bolita56, bolita66, bolita76, bolita86, bolita96,bolita106,bolita116,bolita126,bolita136,bolita146,bolita156,bolita166,bolita176,bolita186,bolita196,bolita206,bolita216,bolita226, bolita236, bolita246, bolita256, bolita266};
         contTemp thread5 = new contTemp(contFinal, bolitas);
         thread5.start();
         
@@ -189,6 +189,36 @@ public class Simulacion extends javax.swing.JFrame {
         bolita215.setVisible(false);
         bolita216.setVisible(false);
         
+        bolita222.setVisible(false);
+        bolita223.setVisible(false);
+        bolita224.setVisible(false);
+        bolita225.setVisible(false);
+        bolita226.setVisible(false);
+        
+        bolita232.setVisible(false);
+        bolita233.setVisible(false);
+        bolita234.setVisible(false);
+        bolita235.setVisible(false);
+        bolita236.setVisible(false);
+        
+        bolita242.setVisible(false);
+        bolita243.setVisible(false);
+        bolita244.setVisible(false);
+        bolita245.setVisible(false);
+        bolita246.setVisible(false);
+        
+        bolita252.setVisible(false);
+        bolita253.setVisible(false);
+        bolita254.setVisible(false);
+        bolita255.setVisible(false);
+        bolita256.setVisible(false);
+        
+        bolita262.setVisible(false);
+        bolita263.setVisible(false);
+        bolita264.setVisible(false);
+        bolita265.setVisible(false);
+        bolita266.setVisible(false);
+        
     }
     
 
@@ -226,6 +256,11 @@ public class Simulacion extends javax.swing.JFrame {
         bolita192 = new javax.swing.JLabel();
         bolita202 = new javax.swing.JLabel();
         bolita212 = new javax.swing.JLabel();
+        bolita222 = new javax.swing.JLabel();
+        bolita232 = new javax.swing.JLabel();
+        bolita242 = new javax.swing.JLabel();
+        bolita252 = new javax.swing.JLabel();
+        bolita262 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         bolita3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -249,6 +284,11 @@ public class Simulacion extends javax.swing.JFrame {
         bolita193 = new javax.swing.JLabel();
         bolita203 = new javax.swing.JLabel();
         bolita213 = new javax.swing.JLabel();
+        bolita223 = new javax.swing.JLabel();
+        bolita233 = new javax.swing.JLabel();
+        bolita243 = new javax.swing.JLabel();
+        bolita253 = new javax.swing.JLabel();
+        bolita263 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         bolita4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
@@ -272,6 +312,11 @@ public class Simulacion extends javax.swing.JFrame {
         bolita194 = new javax.swing.JLabel();
         bolita204 = new javax.swing.JLabel();
         bolita214 = new javax.swing.JLabel();
+        bolita224 = new javax.swing.JLabel();
+        bolita234 = new javax.swing.JLabel();
+        bolita244 = new javax.swing.JLabel();
+        bolita254 = new javax.swing.JLabel();
+        bolita264 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         bolita5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
@@ -295,6 +340,11 @@ public class Simulacion extends javax.swing.JFrame {
         bolita195 = new javax.swing.JLabel();
         bolita205 = new javax.swing.JLabel();
         bolita215 = new javax.swing.JLabel();
+        bolita225 = new javax.swing.JLabel();
+        bolita235 = new javax.swing.JLabel();
+        bolita245 = new javax.swing.JLabel();
+        bolita255 = new javax.swing.JLabel();
+        bolita265 = new javax.swing.JLabel();
         jPanel8 = new javax.swing.JPanel();
         bolita6 = new javax.swing.JLabel();
         bolita26 = new javax.swing.JLabel();
@@ -318,6 +368,11 @@ public class Simulacion extends javax.swing.JFrame {
         bolita196 = new javax.swing.JLabel();
         bolita206 = new javax.swing.JLabel();
         bolita216 = new javax.swing.JLabel();
+        bolita226 = new javax.swing.JLabel();
+        bolita236 = new javax.swing.JLabel();
+        bolita246 = new javax.swing.JLabel();
+        bolita256 = new javax.swing.JLabel();
+        bolita266 = new javax.swing.JLabel();
         empezar = new javax.swing.JButton();
         jPanel9 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
@@ -342,15 +397,20 @@ public class Simulacion extends javax.swing.JFrame {
         bolita191 = new javax.swing.JLabel();
         bolita201 = new javax.swing.JLabel();
         bolita211 = new javax.swing.JLabel();
+        bolita221 = new javax.swing.JLabel();
+        bolita231 = new javax.swing.JLabel();
+        bolita241 = new javax.swing.JLabel();
+        bolita251 = new javax.swing.JLabel();
+        bolita261 = new javax.swing.JLabel();
         temp = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         contador1 = new javax.swing.JLabel();
         contador2 = new javax.swing.JLabel();
         contador3 = new javax.swing.JLabel();
         contador4 = new javax.swing.JLabel();
-        contador5 = new javax.swing.JLabel();
         contador6 = new javax.swing.JLabel();
         contFinal = new javax.swing.JLabel();
+        contador5 = new javax.swing.JLabel();
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -436,41 +496,64 @@ public class Simulacion extends javax.swing.JFrame {
 
         bolita212.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/naranja (1).png"))); // NOI18N
 
+        bolita222.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/naranja (1).png"))); // NOI18N
+
+        bolita232.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/naranja (1).png"))); // NOI18N
+
+        bolita242.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/naranja (1).png"))); // NOI18N
+
+        bolita252.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/naranja (1).png"))); // NOI18N
+
+        bolita262.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/naranja (1).png"))); // NOI18N
+
         javax.swing.GroupLayout bolita62Layout = new javax.swing.GroupLayout(bolita62);
         bolita62.setLayout(bolita62Layout);
         bolita62Layout.setHorizontalGroup(
             bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(bolita62Layout.createSequentialGroup()
-                .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(bolita62Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(bolita262)
+                        .addGap(18, 18, 18)
+                        .addComponent(bolita252))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, bolita62Layout.createSequentialGroup()
                         .addGap(37, 37, 37)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(bolita62Layout.createSequentialGroup()
-                        .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, bolita62Layout.createSequentialGroup()
+                        .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(bolita62Layout.createSequentialGroup()
-                                .addGap(64, 64, 64)
-                                .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(bolita22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(bolita52, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(bolita82, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(bolita112, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(bolita142, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(bolita62Layout.createSequentialGroup()
+                                        .addGap(64, 64, 64)
+                                        .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                            .addComponent(bolita22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(bolita52, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(bolita82, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(bolita112, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(bolita142, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                    .addGroup(bolita62Layout.createSequentialGroup()
+                                        .addGap(18, 18, 18)
+                                        .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(bolita182)
+                                            .addComponent(bolita32)
+                                            .addComponent(bolita6dos)
+                                            .addComponent(bolita92)
+                                            .addComponent(bolita122)
+                                            .addComponent(bolita152))
+                                        .addGap(26, 26, 26)
+                                        .addComponent(bolita172)))
+                                .addGap(0, 0, Short.MAX_VALUE))
                             .addGroup(bolita62Layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(bolita182)
-                                    .addComponent(bolita32)
-                                    .addComponent(bolita6dos)
-                                    .addComponent(bolita92)
-                                    .addComponent(bolita122)
-                                    .addComponent(bolita152))
-                                .addGap(26, 26, 26)
-                                .addComponent(bolita172))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, bolita62Layout.createSequentialGroup()
                                 .addContainerGap()
-                                .addComponent(bolita212)
+                                .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(bolita242, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(bolita212, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(bolita202)))
+                                .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(bolita202, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(bolita232, javax.swing.GroupLayout.Alignment.TRAILING))))
                         .addGap(18, 18, 18)
                         .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(bolita42)
@@ -479,7 +562,8 @@ public class Simulacion extends javax.swing.JFrame {
                             .addComponent(bolita102, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(bolita132, javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(bolita192, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(bolita162))))
+                            .addComponent(bolita162)
+                            .addComponent(bolita222, javax.swing.GroupLayout.Alignment.TRAILING))))
                 .addContainerGap(26, Short.MAX_VALUE))
         );
         bolita62Layout.setVerticalGroup(
@@ -522,15 +606,24 @@ public class Simulacion extends javax.swing.JFrame {
                     .addComponent(bolita172)
                     .addComponent(bolita182))
                 .addGap(36, 36, 36)
-                .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(bolita62Layout.createSequentialGroup()
                         .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(bolita192)
                             .addComponent(bolita202))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(31, 31, 31)
+                        .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(bolita222)
+                            .addComponent(bolita232)))
                     .addGroup(bolita62Layout.createSequentialGroup()
                         .addComponent(bolita212)
-                        .addGap(0, 0, Short.MAX_VALUE))))
+                        .addGap(36, 36, 36)
+                        .addComponent(bolita242)))
+                .addGap(32, 32, 32)
+                .addGroup(bolita62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(bolita252)
+                    .addComponent(bolita262))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel4.setBackground(new java.awt.Color(252, 252, 233));
@@ -582,6 +675,16 @@ public class Simulacion extends javax.swing.JFrame {
 
         bolita213.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/amarilla (1).png"))); // NOI18N
 
+        bolita223.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/amarilla (1).png"))); // NOI18N
+
+        bolita233.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/amarilla (1).png"))); // NOI18N
+
+        bolita243.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/amarilla (1).png"))); // NOI18N
+
+        bolita253.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/amarilla (1).png"))); // NOI18N
+
+        bolita263.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/amarilla (1).png"))); // NOI18N
+
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
@@ -593,16 +696,24 @@ public class Simulacion extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(bolita33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(bolita63, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(bolita93, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(bolita123, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(bolita153, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(bolita33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(bolita63, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(bolita93, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(bolita123, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(bolita153, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(bolita183, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(bolita213, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(bolita213, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(bolita243, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(32, 32, 32)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addComponent(bolita263)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(bolita253))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addComponent(bolita233)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(bolita223))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addComponent(bolita203)
                         .addGap(29, 29, 29)
@@ -670,6 +781,16 @@ public class Simulacion extends javax.swing.JFrame {
                     .addComponent(bolita193)
                     .addComponent(bolita203)
                     .addComponent(bolita213))
+                .addGap(35, 35, 35)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(bolita223)
+                        .addComponent(bolita233))
+                    .addComponent(bolita243))
+                .addGap(33, 33, 33)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(bolita253)
+                    .addComponent(bolita263))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -723,6 +844,16 @@ public class Simulacion extends javax.swing.JFrame {
 
         bolita214.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/pngegg.png"))); // NOI18N
 
+        bolita224.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/pngegg.png"))); // NOI18N
+
+        bolita234.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/pngegg.png"))); // NOI18N
+
+        bolita244.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/pngegg.png"))); // NOI18N
+
+        bolita254.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/pngegg.png"))); // NOI18N
+
+        bolita264.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/pngegg.png"))); // NOI18N
+
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
@@ -733,48 +864,59 @@ public class Simulacion extends javax.swing.JFrame {
                 .addGap(28, 28, 28))
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(20, 20, 20)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(bolita34)
-                            .addComponent(bolita64)
-                            .addComponent(bolita94)
-                            .addComponent(bolita124)
-                            .addComponent(bolita154))
-                        .addGap(26, 26, 26)
-                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addComponent(bolita144)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(bolita134))
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addComponent(bolita114)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(bolita104))
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel5Layout.createSequentialGroup()
-                                .addComponent(bolita84)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(bolita74, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addComponent(bolita54)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(bolita44))
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addComponent(bolita24, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(bolita4))))
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(bolita184)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(bolita174)
+                        .addComponent(bolita264)
                         .addGap(18, 18, 18)
-                        .addComponent(bolita164))
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(bolita214)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(bolita204)
-                        .addGap(18, 18, 18)
-                        .addComponent(bolita194)))
+                        .addComponent(bolita254))
+                    .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(jPanel5Layout.createSequentialGroup()
+                            .addComponent(bolita244)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(bolita234)
+                            .addGap(18, 18, 18)
+                            .addComponent(bolita224))
+                        .addGroup(jPanel5Layout.createSequentialGroup()
+                            .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(bolita34)
+                                .addComponent(bolita64)
+                                .addComponent(bolita94)
+                                .addComponent(bolita124)
+                                .addComponent(bolita154))
+                            .addGap(26, 26, 26)
+                            .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addGroup(jPanel5Layout.createSequentialGroup()
+                                    .addComponent(bolita144)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(bolita134))
+                                .addGroup(jPanel5Layout.createSequentialGroup()
+                                    .addComponent(bolita114)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(bolita104))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel5Layout.createSequentialGroup()
+                                    .addComponent(bolita84)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(bolita74, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(jPanel5Layout.createSequentialGroup()
+                                    .addComponent(bolita54)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(bolita44))
+                                .addGroup(jPanel5Layout.createSequentialGroup()
+                                    .addComponent(bolita24, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(bolita4))))
+                        .addGroup(jPanel5Layout.createSequentialGroup()
+                            .addComponent(bolita184)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(bolita174)
+                            .addGap(18, 18, 18)
+                            .addComponent(bolita164))
+                        .addGroup(jPanel5Layout.createSequentialGroup()
+                            .addComponent(bolita214)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(bolita204)
+                            .addGap(18, 18, 18)
+                            .addComponent(bolita194))))
                 .addContainerGap(26, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
@@ -818,6 +960,15 @@ public class Simulacion extends javax.swing.JFrame {
                     .addComponent(bolita204)
                     .addComponent(bolita194)
                     .addComponent(bolita214))
+                .addGap(32, 32, 32)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(bolita224)
+                    .addComponent(bolita234)
+                    .addComponent(bolita244))
+                .addGap(36, 36, 36)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(bolita254)
+                    .addComponent(bolita264))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -870,6 +1021,16 @@ public class Simulacion extends javax.swing.JFrame {
 
         bolita215.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/pngegg (1).png"))); // NOI18N
 
+        bolita225.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/pngegg (1).png"))); // NOI18N
+
+        bolita235.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/pngegg (1).png"))); // NOI18N
+
+        bolita245.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/pngegg (1).png"))); // NOI18N
+
+        bolita255.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/pngegg (1).png"))); // NOI18N
+
+        bolita265.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/pngegg (1).png"))); // NOI18N
+
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
@@ -890,42 +1051,54 @@ public class Simulacion extends javax.swing.JFrame {
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addGap(34, 34, 34)
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel6Layout.createSequentialGroup()
+                                    .addComponent(bolita215)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(bolita205)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(bolita195))
+                                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(jPanel6Layout.createSequentialGroup()
+                                        .addComponent(bolita95)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(bolita85)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(bolita75, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel6Layout.createSequentialGroup()
+                                        .addComponent(bolita65)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(bolita55)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(bolita45))
+                                    .addGroup(jPanel6Layout.createSequentialGroup()
+                                        .addComponent(bolita125)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(bolita115)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(bolita105, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel6Layout.createSequentialGroup()
+                                        .addComponent(bolita155)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(bolita145)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(bolita135))
+                                    .addGroup(jPanel6Layout.createSequentialGroup()
+                                        .addComponent(bolita185)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(bolita175)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(bolita165)))
+                                .addGroup(jPanel6Layout.createSequentialGroup()
+                                    .addComponent(bolita245)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(bolita235)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(bolita225)))
                             .addGroup(jPanel6Layout.createSequentialGroup()
-                                .addComponent(bolita95)
+                                .addComponent(bolita265)
                                 .addGap(18, 18, 18)
-                                .addComponent(bolita85)
-                                .addGap(18, 18, 18)
-                                .addComponent(bolita75, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel6Layout.createSequentialGroup()
-                                .addComponent(bolita65)
-                                .addGap(18, 18, 18)
-                                .addComponent(bolita55)
-                                .addGap(18, 18, 18)
-                                .addComponent(bolita45))
-                            .addGroup(jPanel6Layout.createSequentialGroup()
-                                .addComponent(bolita125)
-                                .addGap(18, 18, 18)
-                                .addComponent(bolita115)
-                                .addGap(18, 18, 18)
-                                .addComponent(bolita105, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel6Layout.createSequentialGroup()
-                                .addComponent(bolita155)
-                                .addGap(18, 18, 18)
-                                .addComponent(bolita145)
-                                .addGap(18, 18, 18)
-                                .addComponent(bolita135))
-                            .addGroup(jPanel6Layout.createSequentialGroup()
-                                .addComponent(bolita185)
-                                .addGap(18, 18, 18)
-                                .addComponent(bolita175)
-                                .addGap(18, 18, 18)
-                                .addComponent(bolita165))
-                            .addGroup(jPanel6Layout.createSequentialGroup()
-                                .addComponent(bolita215)
-                                .addGap(18, 18, 18)
-                                .addComponent(bolita205)
-                                .addGap(18, 18, 18)
-                                .addComponent(bolita195)))))
+                                .addComponent(bolita255)))))
                 .addContainerGap(30, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
@@ -967,12 +1140,24 @@ public class Simulacion extends javax.swing.JFrame {
                         .addComponent(bolita175)
                         .addComponent(bolita165))
                     .addComponent(bolita185))
-                .addGap(30, 30, 30)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGap(44, 44, 44)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(bolita215)
                     .addComponent(bolita205)
-                    .addComponent(bolita195)
-                    .addComponent(bolita215))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(bolita195))
+                .addGap(33, 33, 33)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(bolita245)
+                            .addComponent(bolita235))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(bolita265))
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addComponent(bolita225)
+                        .addGap(28, 28, 28)
+                        .addComponent(bolita255)))
+                .addContainerGap(103, Short.MAX_VALUE))
         );
 
         jPanel8.setBackground(new java.awt.Color(243, 92, 147));
@@ -1022,6 +1207,16 @@ public class Simulacion extends javax.swing.JFrame {
 
         bolita216.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/rosado.png"))); // NOI18N
 
+        bolita226.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/rosado.png"))); // NOI18N
+
+        bolita236.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/rosado.png"))); // NOI18N
+
+        bolita246.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/rosado.png"))); // NOI18N
+
+        bolita256.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/rosado.png"))); // NOI18N
+
+        bolita266.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/rosado.png"))); // NOI18N
+
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
         jPanel8Layout.setHorizontalGroup(
@@ -1038,7 +1233,7 @@ public class Simulacion extends javax.swing.JFrame {
                         .addComponent(bolita56, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(69, 69, 69))))
             .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel8Layout.createSequentialGroup()
                         .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel8Layout.createSequentialGroup()
@@ -1065,6 +1260,17 @@ public class Simulacion extends javax.swing.JFrame {
                                 .addComponent(bolita136, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(bolita146, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(bolita266, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(bolita226, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                    .addComponent(bolita196, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                    .addComponent(bolita86, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(bolita166, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel8Layout.createSequentialGroup()
                         .addComponent(bolita96, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1074,16 +1280,17 @@ public class Simulacion extends javax.swing.JFrame {
                         .addGap(31, 31, 31)
                         .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(bolita206, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                            .addComponent(bolita176, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(bolita76, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(bolita196, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                    .addComponent(bolita86, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(bolita176, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel8Layout.createSequentialGroup()
+                        .addGap(45, 45, 45)
+                        .addComponent(bolita246, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(bolita166, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(bolita236, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                    .addComponent(bolita76, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(bolita256, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(36, 36, 36))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1126,13 +1333,29 @@ public class Simulacion extends javax.swing.JFrame {
                     .addComponent(bolita86, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(bolita166, javax.swing.GroupLayout.PREFERRED_SIZE, 13, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(bolita76, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(4, 4, 4)
-                .addComponent(bolita206, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(3, 3, 3)
-                .addComponent(bolita196, javax.swing.GroupLayout.PREFERRED_SIZE, 12, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(bolita216, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(345, Short.MAX_VALUE))
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGap(4, 4, 4)
+                        .addComponent(bolita206, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGap(31, 31, 31)
+                                .addComponent(bolita256, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGap(3, 3, 3)
+                                .addComponent(bolita196, javax.swing.GroupLayout.PREFERRED_SIZE, 12, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(bolita216, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(bolita226, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGap(65, 65, 65)
+                        .addComponent(bolita266, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(27, 27, 27)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(bolita246, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bolita236, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         empezar.setBackground(new java.awt.Color(214, 252, 214));
@@ -1191,6 +1414,16 @@ public class Simulacion extends javax.swing.JFrame {
 
         bolita211.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/Blanca1 (3).png"))); // NOI18N
 
+        bolita221.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/Blanca1 (3).png"))); // NOI18N
+
+        bolita231.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/Blanca1 (3).png"))); // NOI18N
+
+        bolita241.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/Blanca1 (3).png"))); // NOI18N
+
+        bolita251.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/Blanca1 (3).png"))); // NOI18N
+
+        bolita261.setIcon(new javax.swing.ImageIcon(getClass().getResource("/circulo/Blanca1 (3).png"))); // NOI18N
+
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
@@ -1216,13 +1449,20 @@ public class Simulacion extends javax.swing.JFrame {
                             .addGroup(jPanel9Layout.createSequentialGroup()
                                 .addComponent(bolita211)
                                 .addGap(18, 18, 18)
-                                .addComponent(bolita201)))
+                                .addComponent(bolita201))
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addComponent(bolita241)
+                                .addGap(18, 18, 18)
+                                .addComponent(bolita231))
+                            .addComponent(bolita261))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(bolita131)
                             .addComponent(bolita101)
                             .addComponent(bolita161)
-                            .addComponent(bolita191)))
+                            .addComponent(bolita191)
+                            .addComponent(bolita221)
+                            .addComponent(bolita251)))
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addComponent(bolita61)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -1286,6 +1526,15 @@ public class Simulacion extends javax.swing.JFrame {
                     .addComponent(bolita191)
                     .addComponent(bolita201)
                     .addComponent(bolita211))
+                .addGap(48, 48, 48)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(bolita221)
+                    .addComponent(bolita231)
+                    .addComponent(bolita241))
+                .addGap(42, 42, 42)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(bolita251)
+                    .addComponent(bolita261))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -1311,14 +1560,14 @@ public class Simulacion extends javax.swing.JFrame {
         contador4.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         contador4.setForeground(new java.awt.Color(0, 204, 51));
 
-        contador5.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        contador5.setForeground(new java.awt.Color(0, 204, 102));
-
         contador6.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         contador6.setForeground(new java.awt.Color(204, 153, 0));
 
         contFinal.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         contFinal.setForeground(new java.awt.Color(204, 0, 0));
+
+        contador5.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        contador5.setForeground(new java.awt.Color(0, 204, 102));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -1327,10 +1576,15 @@ public class Simulacion extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(28, 28, 28)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(menuBoton, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(28, 28, 28)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(menuBoton, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(52, 52, 52)
+                                .addComponent(contador1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(30, 30, 30)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -1338,20 +1592,28 @@ public class Simulacion extends javax.swing.JFrame {
                                 .addGap(261, 261, 261)
                                 .addComponent(temp, javax.swing.GroupLayout.PREFERRED_SIZE, 203, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(bolita62, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(37, 37, 37)
-                                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(34, 34, 34)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(12, 12, 12)
-                                        .addComponent(contador4, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(164, 164, 164)
-                                        .addComponent(contador5, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(bolita62, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(37, 37, 37)
+                                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(34, 34, 34))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGap(42, 42, 42)
+                                        .addComponent(contador2, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(contador3, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(69, 69, 69)))
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(37, 37, 37)
-                                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                                        .addGap(54, 54, 54)
+                                        .addComponent(contador4, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(148, 148, 148)
+                                        .addComponent(contador5, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                         .addGap(31, 31, 31))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addContainerGap()
@@ -1359,26 +1621,24 @@ public class Simulacion extends javax.swing.JFrame {
                         .addGap(236, 236, 236)))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(38, 38, 38)
-                        .addComponent(reporte, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jPanel8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(38, 38, 38)
+                                .addComponent(reporte, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jPanel8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap(25, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(contFinal, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(81, 81, 81))))
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(contador1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(107, 107, 107)
-                .addComponent(contador2, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(139, 139, 139)
-                .addComponent(contador3, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(contFinal, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(3, 3, 3)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(contador6)
                 .addGap(59, 59, 59))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(25, 25, 25)
@@ -1393,33 +1653,28 @@ public class Simulacion extends javax.swing.JFrame {
                         .addComponent(temp, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(49, 49, 49)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(jPanel5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(bolita62, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(jPanel9, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel8, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(contador1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(contador2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(18, 18, 18))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(contador3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addContainerGap())
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(contador4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addContainerGap())
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(contador6, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(contador4, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(contador5, javax.swing.GroupLayout.DEFAULT_SIZE, 59, Short.MAX_VALUE)
                             .addComponent(contFinal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(contador5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addContainerGap())))
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(contador2, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(contador3, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(26, 26, 26)
+                        .addComponent(contador1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(118, 118, 118)
+                .addComponent(contador6, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(134, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -1430,13 +1685,15 @@ public class Simulacion extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 int k=0;
-int numHilo = 21;
+int numHilo = 26;
 
 public void HILOS(){
  Thread hilo1 = new Thread(new Bolita(bolita1, bolita2, bolita3, bolita4, bolita5, bolita6));
@@ -1647,6 +1904,52 @@ public void HILOS(){
         }
         hilo21.start();
         
+        Thread hilo22 = new Thread(new Bolita(bolita221, bolita222, bolita223, bolita224, bolita225, bolita226));
+        try {
+            // EL SEGUNDO
+            hilo22.sleep(800);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        hilo22.start();
+        
+        Thread hilo23 = new Thread(new Bolita(bolita231, bolita232, bolita233, bolita234, bolita235, bolita236));
+        try {
+            // EL SEGUNDO
+            hilo23.sleep(800);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        hilo23.start();
+        
+        Thread hilo24 = new Thread(new Bolita(bolita241, bolita242, bolita243, bolita244, bolita245, bolita246));
+        try {
+            // EL SEGUNDO
+            hilo24.sleep(800);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        hilo24.start();
+        
+        Thread hilo25 = new Thread(new Bolita(bolita251, bolita252, bolita253, bolita254, bolita255, bolita256));
+        try {
+            // EL SEGUNDO
+            hilo25.sleep(800);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        hilo25.start();
+        
+        Thread hilo26 = new Thread(new Bolita(bolita261, bolita262, bolita263, bolita264, bolita265, bolita266));
+        try {
+            // EL SEGUNDO
+            hilo26.sleep(800);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        hilo26.start();
+        
+        
                 new Thread(() -> {
         int fThreads = 0;
         while (fThreads < numHilo) {
@@ -1658,7 +1961,7 @@ public void HILOS(){
             }
 
             
-            if (!hilo21.isAlive()) {
+            if (!hilo26.isAlive()) {
                 int z=k-1;
                 t.stop();
                 JOptionPane.showMessageDialog(null, "SIMULACION TERMINADA.- tiempo transcurrido:"+ z + "s");
@@ -1861,10 +2164,40 @@ public void HILOS(){
     private javax.swing.JLabel bolita215;
     private javax.swing.JLabel bolita216;
     private javax.swing.JLabel bolita22;
+    private javax.swing.JLabel bolita221;
+    private javax.swing.JLabel bolita222;
+    private javax.swing.JLabel bolita223;
+    private javax.swing.JLabel bolita224;
+    private javax.swing.JLabel bolita225;
+    private javax.swing.JLabel bolita226;
     private javax.swing.JLabel bolita23;
+    private javax.swing.JLabel bolita231;
+    private javax.swing.JLabel bolita232;
+    private javax.swing.JLabel bolita233;
+    private javax.swing.JLabel bolita234;
+    private javax.swing.JLabel bolita235;
+    private javax.swing.JLabel bolita236;
     private javax.swing.JLabel bolita24;
+    private javax.swing.JLabel bolita241;
+    private javax.swing.JLabel bolita242;
+    private javax.swing.JLabel bolita243;
+    private javax.swing.JLabel bolita244;
+    private javax.swing.JLabel bolita245;
+    private javax.swing.JLabel bolita246;
     private javax.swing.JLabel bolita25;
+    private javax.swing.JLabel bolita251;
+    private javax.swing.JLabel bolita252;
+    private javax.swing.JLabel bolita253;
+    private javax.swing.JLabel bolita254;
+    private javax.swing.JLabel bolita255;
+    private javax.swing.JLabel bolita256;
     private javax.swing.JLabel bolita26;
+    private javax.swing.JLabel bolita261;
+    private javax.swing.JLabel bolita262;
+    private javax.swing.JLabel bolita263;
+    private javax.swing.JLabel bolita264;
+    private javax.swing.JLabel bolita265;
+    private javax.swing.JLabel bolita266;
     private javax.swing.JLabel bolita3;
     private javax.swing.JLabel bolita31;
     private javax.swing.JLabel bolita32;

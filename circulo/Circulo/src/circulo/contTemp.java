@@ -6,7 +6,7 @@ package circulo;
 
 /**
  *
- * @author natalia label.isVisible()
+ * @author natalia
  */
 import java.awt.*;
 import javax.swing.*;
@@ -35,14 +35,14 @@ public class contTemp implements Runnable {
     @Override
     public void run() {
         while (isRunning) {
-            int visibleCount = 0;
+            int visCont = 0;
             for (JLabel label : bolitas) {
                 if (label != null && label.getIcon() != null && label.isVisible()) {
-        visibleCount++;
+        visCont++;
         
     }
             }
-            final int count = visibleCount;
+            final int count = visCont;
             SwingUtilities.invokeLater(() -> {
                 contador2.setText("" + count);
                 
